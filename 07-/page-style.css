@@ -1,0 +1,33 @@
+
+*{
+     box-sizing: content-box;  /* сохраняет ширину блока и к ней добавляються допонительные отступы падинг и т.д*/
+     /* box-sizing: border-box; сохраняет указаную ширину и вмещает в себя дополнительные отступы, так чтобы не было шире чем указано */
+    }
+.conteiner-block{
+    background-color: yellow;
+    width: 800px;
+    /* height: 600px; */
+  /*  padding: 100px 400px 100px 200px ;  отступы верз право низ лево */
+    padding: 50px 100px; /* отступы 100 верз низ, 200 право лево*/
+    /* padding-top:100px ;
+    padding-bottom:100px ;
+    padding-left: 200px;
+    padding-right: 400px; */
+     margin: 200px auto; /* фиксирует отступы справа и слева, и когда размер страницы меняется то отступы сохраняются */
+    text-align: center;
+    /* text-align: right; */
+     border-radius: 5px;  /*смягчает углы квадрата*/ 
+}
+.conteiner-block-center{
+font-size: 0; /* убирает отступы между блоками , item блокам обязательно нужно указать размер шрифта, потому что пропает текст  */
+}
+.item{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 10px;
+  /* border: 4px solid black; */
+  border: 4px dotted black;
+}

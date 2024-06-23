@@ -1,0 +1,71 @@
+* /* dla wsech znachenij */
+{
+
+}
+h3,h4
+{
+     color: red; /* цвет текста  */
+    background-color: black; /* цвет фона текста   */
+}
+h3,h4
+{
+     color: yellow; /* цвет текста  */
+    background-color: black; /* цвет фона текста   */
+}
+span{
+    color: blueviolet;
+}
+p span{
+    color: green;
+}
+header nav a{
+    background-color: yellow;
+}
+#bottom{
+    background-color: purple;
+    color: white;
+}
+.text-car
+{
+    background-color: blue;
+    color: white;
+}
+
+.big{
+    font-size: 20px;
+}
+ul li:first-child{/* первый номер из списка   */
+    background-color: yellow;
+}
+ul li:last-child{/* последний номер из списка   */
+    background-color: rgb(170, 43, 92);
+}
+ul li:nth-child(3){ /* любой номер из списка   */
+    background-color: aqua;
+}
+
+a:link {
+    color: blue;
+  }
+
+/* Непосещённые ссылки */
+a:link {
+    color: blue;
+  }
+  /* Посещённые ссылки */
+  a:visited {
+    color: purple;
+  }
+  /* Ссылки при наведении */
+  a:hover {
+    background: yellow;
+  }
+  /* Активные ссылки */
+  a:active {
+    color: red;
+  }
+  
+  /* Активные абзацы */
+  p:active {
+    background: #eee;
+  }
