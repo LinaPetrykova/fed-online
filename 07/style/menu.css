@@ -87,7 +87,7 @@ line-height: normal;
 
 .eat-description{
     display: inline-block; 
-    text-align: right;
+  
 } 
 
 .position-eat{
@@ -119,4 +119,9 @@ line-height: normal;
     
         
      } 
+    
+     .menu-eat:hover {
+
+        background-color: #5c573f;
+    }
     
