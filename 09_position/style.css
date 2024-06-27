@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.conteiner{
+    width: 400px;
+    padding: 50px;
+    background-color: lawngreen;
+    text-align: center;
+    margin: 0 auto;
+     /* text-transform: uppercase;  текст с большой буквы
+     text-transform:lowercase; текст с маленькой буквы
+     text-transform: capitalize;каождое новое слово с большой буквы */
+     line-height: 2;
+     /* text-decoration: underline; подчеркивает все слова */
+}
+a{
+    text-decoration: none;
+}
+button{
+    /* border: none; убирает рамки */
+     background-color: transparent; /*делает прозрачным */
+}
+header{
+    background-color: orange;
+    padding: 50px;
+    text-align: center;
+    /* position: static;
+    position: relative;
+    position: absolute;
+    position: fixed; */
+     position: sticky; /*фиксирует header и он будет пролистываться вместе с текстом вниз */
+     top: 0; /* отступ от верхнего угла, нужно прописать или не будет работать sticky
+нижнии стают доступны после прописываня позишн */
+    /* top: ;
+    bottom: ;
+    left: ;
+    right: ; */
+    z-index: 3;
+}
+.position-fixed{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: red;
+    border-radius: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 200px;
+    z-index: 2;
+}
+.posotion-abs{
+    padding: 50px;
+    background-color: darkgreen;
+    text-align: center;
+   position: absolute;  /* ширина блока равна ширине текста внутри, для переходов и анимаций, если указать топ 0, то растянется на весь экран */
+    left: 100px;
+    z-index: 2;
+   
+}
+.position-reletion{
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    margin: 0 auto;
+    position: relative;
+    background-color: gray;
+
+
+}
+.posotion-abs-second{
+    padding: 50px;
+    background-color: brown;
+    text-align: center;
+   position: absolute;  /* ширина блока равна ширине текста внутри, для переходов и анимаций, если указать топ 0, то растянется на весь экран */
+    left: 150px;
+    top: 50px;
+    z-index: 1;
+}
+.posotion-abs-third{
+    padding: 50px;
+    background-color:skyblue;
+    text-align: center;
+   position: absolute;  /* ширина блока равна ширине текста внутри, для переходов и анимаций, если указать топ 0, то растянется на весь экран */
+    left: 200px;
+    top: 100px;
+    z-index: 3;
+}

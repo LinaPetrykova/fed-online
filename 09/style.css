@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#E5E5E5;
+}
+.position-reletion{
+    top: 100px;
+    left: 100px;
+    width: 512px;
+    height: 512px;
+position: relative;
+background-color: black;
+}
+.vector-diya{
+    padding: 128.641px 101.279px 109px 101px;
+    position: absolute;
+}
+.flag{
+    position: absolute;
+    top: 343px;
+    left: 216px;
+    right: 216px;
+    bottom: 109px;
+    border-radius: 6px;
+}
+.absolute-blue{
+    width: 80px;
+height: 30px;
+background-color: blue;
+
+}
+.absolute-yellow{
+    background-color: #FFCE22;
+    width: 80px;
+    height: 30px;
+    
+}
+.position-reletion-second{
+    position: relative;
+    width: 512px;
+    height: 512px;
+    background-color: #FFCE22;
+    left: 541px;
+}
+.blue-block{
+    position: absolute;
+    width: 512px;
+    height: 256px;
+    background-color: blue;
+}
+.img-position{
+    position: absolute;
+    top: 144px;
+    left: 56px;
+    right: 55px;
+    bottom: 139px;
+}
+.reletion-position-third{
+    position: relative;
+    background-color: white;
+    width: 512px;
+    height: 512px;
+    left: 943px;
+    bottom: 100px;
+}
+.yellow-circle{
+    position: absolute;
+width: 444px;
+height: 444px;
+border-radius: 444px;
+background-color: #FFCE22;
+margin: 34px 34px;
+z-index: 2;
+}
+.img-in-circle{
+    position: absolute;
+    top: 250px;
+    left: 55px;
+    right: 70px;
+    bottom: 58px;
+    z-index: 2;
+
+}
