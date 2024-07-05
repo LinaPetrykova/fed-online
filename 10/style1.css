@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2F2F2;
+    overflow: scroll;
+   
+   
+}
+.block-page{
+    margin: 141px 350px 0px 350px;
+   
+    
+}
+.title {
+color: #2D3640;
+font-family: "IBM Plex Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 166.667% */
+letter-spacing: -0.5px;
+text-align: left;
+}
+
+
+.text{
+    width: 695px;
+color: #2B292D;
+font-family: "IBM Plex Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+text-align: left;
+}
+
+.conteiner-block{
+    margin-left: 350px;
+    white-space: nowrap;
+ }
+ 
+.block-teatcher{
+    display: inline-block;
+width: 295px;
+height: 470px;
+background-color: white;
+ flex-shrink: 0;
+fill: #FFF;
+ stroke-width: 1px;
+ stroke: #EAEDF2;
+filter: drop-shadow(0px 0px 10px rgba(45, 54, 64, 0.05)); 
+border-radius: 20px;
+margin-right: 20px;
+}
+.wawes{
+    width: 120px;
+    height: 120px;
+flex-shrink: 0;
+margin: 33px 90px 0px 90px;
+overflow: hidden; 
+border-radius: 100%;
+
+}
+.name-teatcher{
+    color: #2D3640;
+
+text-align: center;
+font-family: Catamaran;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.625px;
+margin: 36px 96px 0px 96px;
+}
+.wawes img{
+    width: 120px;
+    height: 120px;
+}
+
+.description{
+    color: #4B4F52;
+
+text-align: center;
+font-family: Catamaran;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.block-for-language{
+    
+    text-align: center;
+
+    
+}
+ .icon-img{
+        width: 30px;
+        height: 30px;
+        margin: 10px auto;
+    }
+
+    .icon{
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        display: inline-block;
+        margin-top: 36px;
+        border-radius: 40px;
+        margin-left: 14px;
+    }
+    
+.icon-js{
+background: #41B883;
+}
+
+.icon-angular{
+   
+    background: #34474F;
+   
+}
+
+.icon-flutter{
+    
+    background: #202124;
+}
+.icon-react{
+   
+    background: #61DAFB;
+   
+}
+.icon-java{
+   
+    background: #D63033;
+    
+}
+.icon-reactNative{
+    
+    background: #0AA9D7;
+    
+}
+.icon-html{
+    
+    background: #E44E25;
+   
+}
+.icon-css{
+    
+    background: #1073BB;
+    
+}
+
