@@ -8,7 +8,10 @@ body{
    
 }
 .block-page{
-    margin: 141px 350px 0px 350px;
+    width: 1260px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
    
     
 }
@@ -34,18 +37,24 @@ font-weight: 400;
 line-height: 40px; /* 200% */
 text-align: left;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-.conteiner-block{
-    margin-left: 350px;
+/* .conteiner-block{
+    
     white-space: nowrap;
  }
- 
+  */
 .block-teatcher{
-    display: inline-block;
+    float: left;
+    /* display: inline-block; */
 width: 295px;
 height: 470px;
 background-color: white;
- flex-shrink: 0;
+ /* flex-shrink: 0; */
 fill: #FFF;
  stroke-width: 1px;
  stroke: #EAEDF2;
