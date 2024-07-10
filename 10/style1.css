@@ -8,7 +8,7 @@ body{
    
 }
 .block-page{
-    width: 1260px;
+    width: 65%;
     margin-top: 140px;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +28,7 @@ text-align: left;
 
 
 .text{
-    width: 695px;
+    max-width: 695px;
 color: #2B292D;
 font-family: "IBM Plex Sans";
 font-size: 20px;
@@ -51,7 +51,7 @@ text-align: left;
 .block-teatcher{
     float: left;
     /* display: inline-block; */
-width: 295px;
+width: 22%;
 height: 470px;
 background-color: white;
  /* flex-shrink: 0; */
@@ -60,15 +60,21 @@ fill: #FFF;
  stroke: #EAEDF2;
 filter: drop-shadow(0px 0px 10px rgba(45, 54, 64, 0.05)); 
 border-radius: 20px;
+margin-bottom: 20px;
 margin-right: 20px;
+overflow: hidden;
 }
 .wawes{
-    width: 120px;
-    height: 120px;
+    max-width: 114px;
+    max-height: 114px;
 flex-shrink: 0;
-margin: 33px 90px 0px 90px;
+margin: auto;
+margin-top: 60px;
+/* margin: 33px 90px 0px 90px; */
 overflow: hidden; 
 border-radius: 100%;
+width: 100%;
+	height: auto;
 
 }
 .name-teatcher{
@@ -81,11 +87,12 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: -0.625px;
-margin: 36px 96px 0px 96px;
+margin: auto;
+margin-top: 36px;
 }
 .wawes img{
-    width: 120px;
-    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
 }
 
 .description{
@@ -106,22 +113,23 @@ line-height: normal;
     
 }
  .icon-img{
-        width: 30px;
-        height: 30px;
-        margin: 10px auto;
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
     }
    
 .icon-img-html-css{
     padding:10px 15px;
 }
     .icon{
-        width: 50px;
+       width: 50px;
         height: 50px;
         overflow: hidden;
         display: inline-block;
         margin-top: 36px;
         border-radius: 40px;
         margin-left: 14px;
+        
     }
     
 .icon-js{

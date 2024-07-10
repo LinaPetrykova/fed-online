@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 65%;
+    height: 600px;
+    margin: 0px auto;
+    padding: 142px 0 128px;;
+
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 16px;
+	background-color: #F2F2F2;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h1{
+    color: #2D3640;
+font-family: "IBM Plex Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 166.667% */
+letter-spacing: -0.5px;
+}
+h1>strong{
+    font-weight: 400;
+    line-height: 80px;
+    
+}
+.title-text{
+    color: #2B292D;
+font-family: "IBM Plex Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+width: 25%;
+height: 80px;
+float: left;
+}
+.user-card{
+    float: left;
+ width: 295px;
+height: 470px;
+background-color: #fff;
+stroke-width: 1px;
+border-radius: 20px;
+overflow: hidden;
+margin-right: 20px;
+
+}
+.user-photo{
+    width: 120px;
+height: 120px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 60px;
+
+}
+.user-card h4{
+	color: #2D3640;
+	text-align: center;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -0.625px;
+	margin: 34px 0 4px;
+}
+.user-card p{
+    
+	color: #4B4F52;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	margin-bottom: 33px;
+    text-align: center;
+}
+.skils{
+    text-align: center;
+    font-size: 0;
+   
+
+}
+.skils-item{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-align: center;
+    padding: 10px;
+	display: inline-block;
+	margin-right: 15px;
+}
+.slill-item>img{
+	width: 100%;
+
+}
+.vue{
+    background: #41B883;
+}
