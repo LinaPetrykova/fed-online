@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.i-flex{
+    background-color: yellow;
+    padding: 20px;
+    display: inline-flex;
+}
+.d-flex{
+        background-color: blue;
+        display: flex;
+    /* flex-wrap: wrap; */
+     /* flex-wrap: wrap-reverse;блоки стают вверз ногами */
+     height: 400px;
+     /* flex-direction: row-reverse; */
+     /* flex-direction: column;блоки стают   друг под дрругом */
+    /*flex-direction: column-reverse ;   блоки стают   друг под дрругом и вверх ногами; */
+    justify-content: center;
+    /* justify-content: space-between; блоки стают в ряд с одинаковым растоянием между собой и два крайних прижаты к краям */
+    /* justify-content: space-around;     блоки стают в ряд с одинаковым растоянием между собой и два крайних имеют отступ от края */
+    /* align-items: stretch;  елемент растягивается по вертикальное оси снизу вверх*/
+    align-items: center; /* елемент внутри блока стает в центр и имеет одинаковое растояние от всех краев */
+    /* align-items: flex-start;елемент внутри блока стает в центр и прижат вверх */
+    /* align-items: flex-end;елемент внутри блока стает в центр и прижат вниз */
+
+}
+.item{
+    background-color: gray;
+    padding: 30px;
+    color: white;
+    border: 2px solid white;
+    width: 400px;
+    /* flex-grow: 1; */
+}
+/* align-items: -для всез елементов, а align-self: для отдельно взятого елемента*/
+/* .item:nth-child(2){
+    align-self: stretch;
+    order: 3; /*  важность елемента  *
+    flex-grow: 2;
+} */
+/* .item:nth-child(3){
+    align-self: flex-start;
+    flex-grow: 3;
+} */
