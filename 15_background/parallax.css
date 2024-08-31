@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.parallax-bg{
+    min-height: 100%;
+    padding-top: 250px;
+    background-image: url('../img/bg.jpeg');
+    background-attachment: fixed; /* картинка на фоне не двигается при скроле */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header,section{
+    padding: 50px;
+    background-color:wheat ;
+    margin-bottom: 300px;
+
+
+}
