@@ -88,6 +88,7 @@ font-style: normal;
 font-weight: 800;
 line-height: 120%; /* 78px */
 letter-spacing: 1px;
+margin-bottom: 100px;
 }
 .text{
     color: var(--Gray-2, #4F4F4F);
@@ -101,12 +102,14 @@ letter-spacing: 1px;
 }
 .border{
     width: 35%;
-  height: 1%;
-flex-shrink: 0;
-  border-radius: 4px;
-background: #F2994A;
-display: flex;
-align-items: flex-start;
+    height: 1%;
+    /* flex-shrink: 0; */
+    border-radius: 4px;
+    background: #F2994A;
+    position: absolute;
+    width: 188px;
+    top: 409px;
+    height: 6px;
 }
 .left-block{
     display: flex;
@@ -152,10 +155,15 @@ align-items: flex-start;
 }
 .icon img{
     margin: 10px;
+
+    
 }
 .icon img:hover{
+     width: 18px;
+    height: 18px; 
+     border-radius: 100px;
     background-color:#F2994A;
-   
+  
     
 }
 .footer-block{
@@ -188,7 +196,7 @@ right: 50px;
 
 .img-position2{
         position: absolute;
-        left: 850px;
+        left: 844px;
         }
         
 
