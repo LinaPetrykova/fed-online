@@ -138,6 +138,7 @@ margin-top: 15px;
 button{
     border-radius: 10px;
 background: #D40D1F;
+border: none;
 width: 272px;
 height: 64px;
 
@@ -193,7 +194,9 @@ border: 3px solid #FFF;
     margin-top:14px; 
     margin-left: 50px;
 }
-
+.position-block{
+    width: 50%;
+}
 .block{
     display: flex;
     justify-content:space-between;
@@ -254,11 +257,17 @@ flex-shrink: 0;
 background: rgba(255, 255, 255, 0.49);
 }
 .color-block{
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    width: 0%;
-    align-self: flex-end;
+    /* width: 0%; */
+    /* align-self: flex-end; */
+    position: fixed;
+    right: 0;
+    bottom: 16px;
+    z-index: 4;
 }
+
 .color-block h4{
     color: #FFF;
 font-family: Inter;
@@ -271,6 +280,5 @@ margin: 15px 70px;
 .down-block{
     display: flex;
     justify-content: space-between;
-    width: 90%;
     margin-top: 20px;
 }

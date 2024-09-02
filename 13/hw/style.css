@@ -152,15 +152,26 @@ letter-spacing: 1px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-.icon img{
-    margin: 10px;
-
+    height: 22%;
     
+
 }
-.icon img:hover{
-     width: 18px;
-    height: 18px; 
+.icon-block{
+ width: 34px;
+ height: 34px; 
+ display: flex;
+ align-items: center;
+ 
+}
+.icon-block img{
+   margin: 0 auto;
+
+}
+.icon div:hover{
+ 
+     width: 34px;
+    height: 34px; 
+    margin: 0 auto;
      border-radius: 100px;
     background-color:#F2994A;
   
